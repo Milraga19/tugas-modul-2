@@ -6,7 +6,7 @@
         $password_count = strlen($password);
         $x = false;
 
-            if($sername_count>7){
+            if($username_count>7){
                 echo "username tidak boleh lebih dari 7 karakter atau huruf<br>";
                 $x = true;
             }
