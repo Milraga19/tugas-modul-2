@@ -11,6 +11,16 @@
                 $x = true;
             }
             
+            if ($username == "") {
+               echo "username tidak boleh kosong<br>";
+                $x = true;
+            }
+     
+            if ($password == "") {
+                echo "password tidak boleh kosong<br>";
+                $x = true;
+            }
+            
             if (!preg_match("/[A-Z]/", $password) ) {
                 echo "password harus menggunakan huruf kapital<br>";
                 $x = true;
